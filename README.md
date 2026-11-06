@@ -3,11 +3,11 @@
 **Name:** Parani Bala M  
 **Register Number:** 212224230192
 
-## 1. AIM
+## AIM
 
 To develop a real-time object detection system using the YOLOv8 model and a webcam to identify and detect objects from live video frames.
 
-## 2. OBJECTIVES
+## OBJECTIVES
 
 1. To understand the working of the YOLOv8 object detection model.
 2. To access the laptop webcam using OpenCV.
@@ -15,7 +15,7 @@ To develop a real-time object detection system using the YOLOv8 model and a webc
 4. To display detected objects with bounding boxes, labels and confidence scores.
 5. To understand real-time image processing using Python.
 
-## 3. ALGORITHM
+## ALGORITHM
 
 1. Start the program.
 2. Import the required libraries such as YOLO, OpenCV and Matplotlib.
@@ -31,7 +31,7 @@ To develop a real-time object detection system using the YOLOv8 model and a webc
 12. Continue the process until the execution is interrupted.
 13. Release the webcam and stop the program.
 
-## 4. PROGRAM
+## PROGRAM
 
 ```python
 from ultralytics import YOLO
@@ -93,12 +93,12 @@ else:
         print("Webcam released successfully.")
 ```
 
-## 5. OUTPUT
+## OUTPUT
 
 <img width="1372" height="611" alt="image" src="https://github.com/user-attachments/assets/848450bf-5bb0-4b65-a6a8-b4068b866cd3" />
 
 
 
-## 6. RESULT
+## RESULT
 
 Thus, real-time object detection using the YOLOv8 Nano model and laptop webcam was successfully implemented using Python and OpenCV. The system detects objects from live video frames and displays their labels, bounding boxes and confidence scores.
